@@ -5,7 +5,7 @@ filename = 'audio.wav'
 
 # Download the sample audio file
 print('Downloading sample audio file...')
-resp = requests.get('https://voice.neuralspace.ai/audio.wav')
+resp = requests.get('https://github.com/Rasheedsheikh/nural/blob/main/audio.wav')
 with open(filename, 'wb') as fp:
     fp.write(resp.content)
 
